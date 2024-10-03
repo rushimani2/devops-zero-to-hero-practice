@@ -1,0 +1,107 @@
+
+Xvnc TigerVNC 1.10.0 - built Jan 23 2024 20:31:07
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Thu Oct  3 13:55:25 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[1684]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[1684]: directory '/root/.gnupg' created
+gpg-agent[1684]: directory '/root/.gnupg/private-keys-v1.d' created
+
+(xfce4-session:1634): xfce4-session-WARNING **: 13:55:26.053: gpg-agent returned no PID in the variables
+
+(xfce4-session:1634): xfce4-session-WARNING **: 13:55:26.055: xfsm_manager_load_session: Something wrong with /root/.cache/sessions/xfce4-session-controlplane:1, Does it exist? Permissions issue?
+gpg-agent[1685]: gpg-agent (GnuPG) 2.2.19 started
+
+(xfwm4:1686): GLib-CRITICAL **: 13:55:26.136: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:1686): xfwm4-WARNING **: 13:55:26.756: Another compositing manager is running on screen 0
+
+(xfsettingsd:1702): GLib-CRITICAL **: 13:55:26.862: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:1702): GLib-GObject-CRITICAL **: 13:55:26.903: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:1702): GLib-GObject-CRITICAL **: 13:55:26.904: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+** (light-locker:1726): ERROR **: 13:55:27.523: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (xiccd:1750): WARNING **: 13:55:27.674: EDID is empty
+xfce4-panel-Message: 13:55:27.698: Plugin "statusnotifier-7" was not found and has been removed from the configuration
+
+** (xiccd:1750): CRITICAL **: 13:55:28.012: device 'xrandr-Red Hat, Inc.-QEMU Monitor' does not exist
+Geolocation service not in use
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+** (wrapper-2.0:1768): WARNING **: 13:55:28.999: No outputs have backlight property
+
+(wrapper-2.0:1770): GLib-GIO-CRITICAL **: 13:55:29.112: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1770): GLib-GIO-CRITICAL **: 13:55:29.112: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1770): GLib-GObject-WARNING **: 13:55:29.112: invalid (NULL) pointer instance
+
+(wrapper-2.0:1770): GLib-GObject-CRITICAL **: 13:55:29.112: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1770): Gtk-WARNING **: 13:55:29.112: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1768): xfce4-power-manager-plugin-WARNING **: 13:55:29.227: Xfce4-power-manager: The panel plugin is present, so the tray icon gets disabled.
+
+(wrapper-2.0:1775): Gtk-WARNING **: 13:55:29.261: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(wrapper-2.0:1770): Gtk-WARNING **: 13:55:29.316: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1768): Gtk-WARNING **: 13:55:29.316: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:1789): Gdk-CRITICAL **: 13:55:29.497: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:1767): Gtk-WARNING **: 13:55:29.555: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+** (xfdesktop:1718): WARNING **: 13:55:44.554: Attempt to remove icon 0x5619442f1dd0 from XfdesktopIconView 0x5619446b82d0, but it's not in there.
+xfsettingsd: Another instance took over. Leaving...
+
+(xfce4-panel:1703): xfce4-panel-CRITICAL **: 13:58:28.767: Name org.xfce.Panel lost on the message dbus, exiting.
+Gdk-Message: 13:58:28.759: xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+(Thunar:1710): thunar-WARNING **: 13:58:28.772: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:1710): thunar-WARNING **: 13:58:28.772: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+
+(xfdesktop:1718): libxfce4ui-WARNING **: 13:58:28.773: ICE I/O Error
+
+(xfdesktop:1718): libxfce4ui-WARNING **: 13:58:28.773: Disconnected from session manager.
+
+(xfce4-panel:1703): libxfce4ui-WARNING **: 13:58:28.773: ICE I/O Error
+Gdk-Message: 13:58:28.774: xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+** (xiccd:1750): WARNING **: 13:58:28.782: Exiting
+Gdk-Message: 13:58:28.833: xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 13:58:28.836: xfce4-panel: Fatal IO error 25 (Inappropriate ioctl for device) on X server :1.
+
+Gdk-Message: 13:58:28.838: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 13:58:28.842: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 13:58:28.843: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+XIO:  fatal IO error 25 (Inappropriate ioctl for device) on X server ":1.0"
+      after 25 requests (25 known processed) with 0 events remaining.
+Gdk-Message: 13:58:28.845: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 13:58:28.882: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 13:58:28.885: wrapper-2.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+
+Thu Oct  3 13:58:28 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
